@@ -1,0 +1,12 @@
+type: google.api.Service
+config_version: 3
+name: echo.v1.endpoints.dd-test-endpoint.cloud.goog
+
+title: Echo API
+apis:
+- name: echo.Echo
+
+usage:
+  rules:
+  - selector: echo.Echo.Get
+    allow_unregistered_calls: true
